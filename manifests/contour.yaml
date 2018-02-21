@@ -143,7 +143,7 @@ spec:
    protocol: TCP
    targetPort: 8080
  - port: 8080
-   name: http
+   name: http-java
    protocol: TCP
    targetPort: 8081
  - port: 443
