@@ -1,7 +1,7 @@
 default: build
 
 build:
-	@mvn clean package
+	@./mvnw clean package
 
 run:
 	@java -Dserver.port=8080 -jar target/java-prototype*

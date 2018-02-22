@@ -2,7 +2,7 @@
 
 Owner: Kris Nova
 
-Author: Kris Nova [Github][6]
+Author: Kris Nova [Github][5]
 
 
 # Overview
@@ -11,10 +11,16 @@ Author: Kris Nova [Github][6]
 
 # Install
 
-Installing with [maven][5]
+Installing with maven
 
 ```bash
-mvn clean package
+./mvnw clean package
+```
+
+Want to upgrade the version of maven used by the maven wrapper?
+
+```bash
+./mvnw -N io.takari:maven:wrapper -Dmaven=3.5.2
 ```
 
 Also for a quick development run the following command to build and run the application.
@@ -66,5 +72,4 @@ Feedback and discussion is available on [the mailing list][2].
 [2]: https://groups.google.com/forum/#!forum/monolithic-apps-to-k8s
 [3]: https://github.com/heptio/java-prototype/issues
 [4]: http://slack.kubernetes.io/
-[5]: https://maven.apache.org/install.html
-[6]: https://github.com/kris-nova/
+[5]: https://github.com/kris-nova/

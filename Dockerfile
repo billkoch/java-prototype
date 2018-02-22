@@ -1,4 +1,4 @@
-FROM maven:3.2-jdk-8 as build
+FROM maven:3.5.2-jdk-8 as build
 WORKDIR /app
 COPY . /app
 RUN mvn clean package
